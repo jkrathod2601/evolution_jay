@@ -4,7 +4,7 @@ const solution=require('./solution')
 
 
 // case 1
-let list=["10", "20", 60, 30, 54, 39 ,undefined]
+let list=["10", "20", 60, 30, 54, 39 ,undefined,null]
 let result=solution(list)
 console.log(result)
 

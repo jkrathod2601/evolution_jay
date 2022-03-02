@@ -1,19 +1,23 @@
-const solution=(list)=>{
-    let i=1
-    while(true){
-        if(list.includes(i)){
-            i=i+1
-        }else{
-            return i
-        }
+const solution = (list) => {
+  // initial i is 1 because we start from positive integer
+  let i = 1;
+
+  // check for every i present in list
+  while (true) {
+    // check i is present in list
+    if (list.includes(i)) {
+      // if present in list so increase the i
+      i = i + 1;
+    } else {
+      // return i if not in list
+      return i;
     }
-}
+  }
+};
 
-
-
-// solutioin2
+// solution2
 // const solution=(list)=>{
-//     dic={}     
+//     dic={}
 //     list.forEach((ele)=>{
 //         dic[ele]=1
 //     })
@@ -26,4 +30,4 @@ const solution=(list)=>{
 //     }
 // }
 
-module.exports=solution
+module.exports = solution;
