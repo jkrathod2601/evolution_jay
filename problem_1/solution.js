@@ -1,3 +1,4 @@
+
 const solution=(list)=>{
     let sum=0
     list.forEach((ele)=>{

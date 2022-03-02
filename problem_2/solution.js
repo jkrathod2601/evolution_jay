@@ -9,7 +9,7 @@ const solution=(list)=>{
     }
 }
 
-module.exports=solution
+
 
 // solutioin2
 // const solution=(list)=>{
@@ -19,9 +19,11 @@ module.exports=solution
 //     })
 //     let i=1
 //     while(true){
-//         if(dic[i]!=undefined){
+//         if(dic[i]==undefined){
 //             return i
 //         }
 //         i=i+1
 //     }
 // }
+
+module.exports=solution

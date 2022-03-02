@@ -2,9 +2,17 @@
 
 const solution = require('./solution')
 
-let list= [1, 3, 6, 4, 1, 2]
-
-
+// case 1
+let list= []
 let result=solution(list)
+console.log(result)
 
+// case 2
+list= [1,2,5,2,8]
+result=solution(list)
+console.log(result)
+
+// case 3
+list= [1,2,5,2,8,"string","5",undefined,{name:"jay"}]
+result=solution(list)
 console.log(result)

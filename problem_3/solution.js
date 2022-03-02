@@ -10,7 +10,7 @@ const solution = (list) =>{
             }
         }
     })
-    return [even,odd]
+    return [odd,even]
 }
 
 module.exports =solution
